@@ -5,6 +5,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+$string1="hello";
+$string2="world";
 
-echo "Hello World";
+echo '$string1 $string2';
+
 ?>
