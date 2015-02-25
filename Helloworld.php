@@ -1,4 +1,8 @@
-<?php
+<html>
+    <head><title>Hello World</title>
+    </head>
+        
+        <body bgcolor="red"><?php
 
 /* 
  * To change this license header, choose License Headers in Project Properties.
@@ -7,7 +11,9 @@
  */
 $string1="hello";
 $string2="world";
-
-echo "$string1 $string2";
-
 ?>
+            <h1 align="center">
+                <?php echo "$string1 $string2 <br> <br>"; 
+                  echo "I'm running "; echo $_SERVER['HTTP_USER_AGENT'] ; ?></h1>
+        </body>
+</html>     
